@@ -35,16 +35,6 @@ The tool calculates the **average attendance percentage** using the following fo
 
 ---
 
-## 🚀 **Installation & Setup**
-```sh
-git clone https://github.com/razielapps/register-closer.git
-cd register-closer
-npm Install
-npm rum dev
-
-🔗 Open **[http://localhost:5173/](http://localhost:5173/)** in your browser.
-
----
 
 ## 🏗️ **Tech Stack**
 🔹 **ReactJS** – Fast and scalable UI library  
@@ -55,5 +45,16 @@ npm rum dev
 
 ## 📜 **License**
 📖 This project is licensed under the **MIT License** – _Free to use, modify, and distribute._
+
+---
+
+## 🚀 **Installation & Setup**
+```sh
+git clone https://github.com/razielapps/register-closer.git
+cd register-closer
+npm Install
+npm rum dev
+
+🔗 Open **[http://localhost:5173/](http://localhost:5173/)** in your browser.
 
 
