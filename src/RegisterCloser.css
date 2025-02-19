@@ -1,0 +1,121 @@
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+* {
+    box-sizing: border-box;
+}
+/* General Styling */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #0d1b2a; /* Dark Blue Background */
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  overflow: hidden !important;
+}
+
+/* Main Container */
+.container {
+  background: #1b263b; /* Dark Blue */
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  width: 350px;
+  text-align: center;
+  overflow: hidden !important;
+}
+
+/* Header Styling */
+.title {
+  font-size: 20px; /* Reduced from 24px */
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+}
+
+/* Form Styling */
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  text-align: left;
+}
+
+label {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #b0c4de; /* Light steel blue */
+  font-size: 12px; /* Reduced from 16px */
+}
+
+input {
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #3b4a66;
+  background-color: #0d1b2a;
+  color: white;
+  font-size: 12px; /* Reduced from 16px */
+  transition: border 0.3s ease;
+}
+
+input:focus {
+  border-color: #81c4ff;
+  outline: none;
+}
+
+/* Button Styling */
+button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px; /* Reduced from 16px */
+  transition: background-color 0.3s ease;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: #005bb5;
+}
+
+/* Result Styling */
+.result {
+  margin-top: 20px;
+  background-color: white;
+  color: #0d1b2a;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 14px; /* Reduced from 18px */
+}
+
+/* Footer Styling */
+.footer {
+  margin-top: 20px;
+  font-size: 10px; /* Reduced from 12px */
+  color: #b0c4de;
+  text-align: center;
+}
+
+.highlight {
+  font-weight: bold;
+  color: #007bff;
+}
+
+
+
+.container {
+    max-width: 100vw; /* Prevents width overflow */
+    max-height: 100vh; /* Prevents height overflow */
+    overflow: hidden; /* Hides any extra content */
+}
+
